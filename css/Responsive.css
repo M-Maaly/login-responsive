@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../image/Aston\ Martin\,matt\ black\,4K\ Full\ HD\,1920x1080\ Wallpaper.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container form {
+    background-color: rgba(0, 0, 119, 0.404);
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    border-radius: 10px;
+}
+.container form input {
+    background-color: rgba(0, 0, 170, 0.411);
+    outline: none;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    flex-grow: 1;
+    flex-basis: 200px;
+    border-radius: 6px;
+}
+.container form button {
+    flex-grow: 1;
+    background-color: rgba(17, 68, 170, 0.651);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 5px 10px;
+    flex-basis: 30px;
+}
